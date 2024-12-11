@@ -59,7 +59,7 @@ Console.Write("Enter int two: ");
 int two = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter int three: ");
 int three = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"{one}, {two} {three}");
+Console.WriteLine($"{one:x} {two} {three}");
 
 
 /*5. Write a program that reads from the console two integer numbers (int)
