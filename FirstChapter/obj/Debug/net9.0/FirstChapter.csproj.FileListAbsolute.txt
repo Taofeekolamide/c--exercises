@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\C# exercises\FirstChapter\bin\Debug\net9.0\FirstChapter.exe
+C:\Users\USER\Desktop\C# exercises\FirstChapter\bin\Debug\net9.0\FirstChapter.deps.json
+C:\Users\USER\Desktop\C# exercises\FirstChapter\bin\Debug\net9.0\FirstChapter.runtimeconfig.json
+C:\Users\USER\Desktop\C# exercises\FirstChapter\bin\Debug\net9.0\FirstChapter.dll
+C:\Users\USER\Desktop\C# exercises\FirstChapter\bin\Debug\net9.0\FirstChapter.pdb
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\FirstChapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\FirstChapter.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\FirstChapter.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\FirstChapter.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\FirstChapter.dll
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\refint\FirstChapter.dll
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\FirstChapter.pdb
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\FirstChapter.genruntimeconfig.cache
+C:\Users\USER\Desktop\C# exercises\FirstChapter\obj\Debug\net9.0\ref\FirstChapter.dll
