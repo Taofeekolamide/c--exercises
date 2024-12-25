@@ -51,34 +51,120 @@ on the console. Each column should have a width of 10 characters and
 the numbers should be left aligned. The first number should be an
 integer in hexadecimal; the second should be fractional positive; and
 the third – a negative fraction. The last two numbers have to be
-rounded to the second decimal place.*/
+rounded to the second decimal place.
 
 Console.Write("Enter int one: ");
 int one = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter int two: ");
-int two = Convert.ToInt32(Console.ReadLine());
+double two = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter int three: ");
-int three = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"{one:x} {two} {three}");
+double three = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"{one,-10:X} {two,-10:F2} {three,-10:F2}");*/
 
 
 /*5. Write a program that reads from the console two integer numbers (int)
 and prints how many numbers between them exist, such that the
 remainder of their division by 5 is 0. Example: in the range (14, 25)
-there are 3 such numbers: 15, 20 and 25.*/
+there are 3 such numbers: 15, 20 and 25.
+
+Console.Write("Enter integer one: ");
+int one = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer two: ");
+int two = Convert.ToInt32(Console.ReadLine());
+int result = 0;
+for (int i = 14; i <= two; i++) {
+    if (i % 5 == 0) {
+        result += 1;
+    }
+}
+Console.WriteLine(result);*/
+
 /*6. Write a program that reads two numbers from the console and prints the
 greater of them. Solve the problem without using conditional
-statements.*/
+statements.
+Console.Write("Enter integer one: ");
+int one = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer two: ");
+int two = Convert.ToInt32(Console.ReadLine());
+bool greater = (one > two);
+Console.Write(greater);*/
+
 /*7. Write a program that reads five integer numbers and prints their
 sum. If an invalid number is entered the program should prompt the user
-to enter another number.*/
+to enter another number.
+Console.Write("Enter integer one: ");
+int one = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer two: ");
+int two = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer three: ");
+int threee = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer four: ");
+int four = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer five: ");
+int five = Convert.ToInt32(Console.ReadLine());
+
+Console.Write($"the result is {one+two+threee+four+five}");*/
+
 /*8. Write a program that reads five numbers from the console and prints the
-greatest of them.*/
+greatest of them.
+Console.Write("Enter integer one: ");
+int one = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer two: ");
+int two = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer three: ");
+int threee = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer four: ");
+int four = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter integer five: ");
+int five = Convert.ToInt32(Console.ReadLine());
+
+int greatest = one;
+if(two > greatest) {
+    greatest = two;
+}
+if(threee > greatest) {
+    greatest = threee;
+}
+if (four > greatest) {
+    greatest = four;
+}
+if(five > greatest) {
+    greatest = five;
+}
+Console.WriteLine($"The greatest is integer one {greatest}");*/
+
 /*9. Write a program that reads an integer number n from the console. After
-that reads n numbers from the console and prints their sum.*/
+that reads n numbers from the console and prints their sum.
+Console.Write("Enter integer n: ");
+int one = Convert.ToInt32(Console.ReadLine());
+int total = 0;
+for (int i = 0; i < one; i++) {
+    Console.Write("Enter integer x: ");
+    int x = Convert.ToInt32(Console.ReadLine());
+    total = total + x;
+}
+Console.Write(total);*/
+
 /*10. Write a program that reads an integer number n from the console and
-prints all numbers in the range [1…n], each on a separate line.*/
+prints all numbers in the range [1…n], each on a separate line.
+Console.Write("Enter integer n: ");
+int one = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <= one; i++) {
+    Console.WriteLine(i);
+}*/
+
 /*11. Write a program that prints on the console the first 100 numbers in the
-Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …*/
+Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …
+int a = 0;
+int b = 1;
+
+Console.WriteLine($"{a}\n{b}");
+for (int i = 2; i < 98; i++) {
+    int next = (a+b);
+    Console.WriteLine(next);
+    a = b;
+    b = next;
+}*/
+
 /*12. Write a program that calculates the sum (with precision of 0.001) of
 the following sequence: 1 + 1/2 - 1/3 + 1/4 - 1/5 + …*/
