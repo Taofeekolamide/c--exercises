@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\C# exercises\FifthChapter\bin\Debug\net9.0\FifthChapter.exe
+C:\Users\USER\Desktop\C# exercises\FifthChapter\bin\Debug\net9.0\FifthChapter.deps.json
+C:\Users\USER\Desktop\C# exercises\FifthChapter\bin\Debug\net9.0\FifthChapter.runtimeconfig.json
+C:\Users\USER\Desktop\C# exercises\FifthChapter\bin\Debug\net9.0\FifthChapter.dll
+C:\Users\USER\Desktop\C# exercises\FifthChapter\bin\Debug\net9.0\FifthChapter.pdb
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\FifthChapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\FifthChapter.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\FifthChapter.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\FifthChapter.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\FifthChapter.sourcelink.json
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\FifthChapter.dll
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\refint\FifthChapter.dll
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\FifthChapter.pdb
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\FifthChapter.genruntimeconfig.cache
+C:\Users\USER\Desktop\C# exercises\FifthChapter\obj\Debug\net9.0\ref\FifthChapter.dll

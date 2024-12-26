@@ -1,17 +1,77 @@
-﻿1. Write a program that prints on the console the numbers from 1 to N. 
-The number N should be read from the standard input. 
-2. Write a program that prints on the console the numbers from 1 to N, 
+﻿/*1. Write a program that prints on the console the numbers from 1 to N. 
+The number N should be read from the standard input.
+Console.Write("Enter number : ");
+int n = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <= n; i++) {
+    Console.WriteLine(i);
+}*/
+
+/*2. Write a program that prints on the console the numbers from 1 to N, 
 which are not divisible by 3 and 7 simultaneously. The number N 
 should be read from the standard input. 
-3. Write a program that reads from the console a series of integers and 
-prints the smallest and largest of them. 
-4. Write a program that prints all possible cards from a standard deck 
-of cards, without jokers (there are 52 cards: 4 suits of 13 cards). 
-232  Fundamentals of Computer Programming with C# 
-5. Write a program that reads from the console number N and print the sum 
+Console.Write("Enter number : ");
+int n = Convert.ToInt32(Console.ReadLine());
+for (int i = 0; i <= n; i++) {
+    if (i % 3 == 0 && i % 7 == 0) {
+        Console.WriteLine(i);
+    }
+}*/
+
+/*3. Write a program that reads from the console a series of integers and 
+prints the smallest and largest of them.
+Console.Write("Enter how many number you want to check : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int greatest = 0;
+int smallest = 0;
+
+for (int i = 1; i <= n; i++) {
+    Console.Write($"Enter number {i} : ");
+    int a = Convert.ToInt32(Console.ReadLine());
+
+
+    if (a > greatest) {
+        greatest = a;
+    }
+    if (smallest > a) {
+        smallest = a;
+    }
+}
+    Console.WriteLine($"The greatest is {greatest}");
+    Console.WriteLine($"The smallest is {smallest}");*/
+
+/*4. Write a program that prints all possible cards from a standard deck 
+of cards, without jokers (there are 52 cards: 4 suits of 13 cards).
+int suits = 4;
+int cards = 13;
+for (int a = 1; a <= suits; a++)
+{
+    for (int b = 1; b <= cards; b++)
+    {
+        Console.WriteLine($"{a} suit : {b} card");
+    }
+}*/
+
+/*5. Write a program that reads from the console number N and print the sum 
 of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 
-13, 21, 34, 55, 89, 144, 233, 377, … 
-6. Write a program that calculates N!/K! for given N and K (1<K<N). 
+13, 21, 34, 55, 89, 144, 233, 377, … */
+    Console.Write($"Enter number : ");
+    int N = Convert.ToInt32(Console.ReadLine());
+
+    //fibonacci sequence
+    int a = 0;
+    int b = 1;
+    Console.WriteLine($"{a}\n{b}");
+    int result = 0;
+
+    for (int i = 0; i < N-2; i++) {
+        int next = a + b;
+        result = a+b+next;
+        Console.WriteLine(next);
+        a = b;
+        b = next;
+    }
+        Console.WriteLine($"the result is {result}");
+/*6. Write a program that calculates N!/K! for given N and K (1<K<N). 
 7. Write a program that calculates N!*K!/(N-K)! for given N and K 
 (1<K<N). 
 8. In combinatorics, the Catalan numbers are calculated by the following 
@@ -73,4 +133,4 @@ form of a spiral:
 Example for n=4: 
 12 13 14 5 
 11 16 15 6 
-10 9 8 7
+10 9 8 7*/
