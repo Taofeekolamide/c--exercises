@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zeller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3b2e8fcb7c01a9d7105af902bf9f049418f01da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efb10d9bfb749efefc1bf677d2a3e5999fc39fd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zeller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zeller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

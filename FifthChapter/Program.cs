@@ -4,8 +4,8 @@ Console.Write("Enter number : ");
 int n = Convert.ToInt32(Console.ReadLine());
 for (int i = 1; i <= n; i++) {
     Console.WriteLine(i);
-}*/
-
+}
+*/
 /*2. Write a program that prints on the console the numbers from 1 to N, 
 which are not divisible by 3 and 7 simultaneously. The number N 
 should be read from the standard input. 
@@ -14,7 +14,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 for (int i = 0; i <= n; i++) {
     if (i % 3 == 0 && i % 7 == 0) {
         Console.WriteLine(i);
-    }
+    } 
 }*/
 
 /*3. Write a program that reads from the console a series of integers and 
@@ -22,7 +22,7 @@ prints the smallest and largest of them.
 Console.Write("Enter how many number you want to check : ");
 int n = Convert.ToInt32(Console.ReadLine());
 int greatest = 0;
-int smallest = 0;
+int smallest = int.MaxValue;
 
 for (int i = 1; i <= n; i++) {
     Console.Write($"Enter number {i} : ");
@@ -32,7 +32,7 @@ for (int i = 1; i <= n; i++) {
     if (a > greatest) {
         greatest = a;
     }
-    if (smallest > a) {
+    if (a < smallest) {
         smallest = a;
     }
 }
@@ -53,28 +53,75 @@ for (int a = 1; a <= suits; a++)
 
 /*5. Write a program that reads from the console number N and print the sum 
 of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 
-13, 21, 34, 55, 89, 144, 233, 377, … */
+13, 21, 34, 55, 89, 144, 233, 377, … 
     Console.Write($"Enter number : ");
     int N = Convert.ToInt32(Console.ReadLine());
-
+    
     //fibonacci sequence
     int a = 0;
     int b = 1;
+    int add = a + b;
     Console.WriteLine($"{a}\n{b}");
-    int result = 0;
 
-    for (int i = 0; i < N-2; i++) {
+    for (int i = 1; i <= N-2; i++) {
         int next = a + b;
-        result = a+b+next;
+        add += next;
         Console.WriteLine(next);
         a = b;
         b = next;
     }
-        Console.WriteLine($"the result is {result}");
-/*6. Write a program that calculates N!/K! for given N and K (1<K<N). 
-7. Write a program that calculates N!*K!/(N-K)! for given N and K 
-(1<K<N). 
-8. In combinatorics, the Catalan numbers are calculated by the following 
+    Console.WriteLine($"The result of first {N} is {add}");*/
+
+/*6. Write a program that calculates N!/K! for given N and K (1<K<N).
+    Console.Write("Enter N integer : ");
+    int N = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter K integer : ");
+    int K = Convert.ToInt32(Console.ReadLine());
+    int Nall = 1;
+    int Kall = 1;
+    if (N > 1 && K > 1 && N > K) {
+        for (int i = N; N >= 1; N--) {
+        Nall *= N;
+        }
+        for (int i = K; K >= 1; K--) {
+        Kall *= K;
+        }
+
+        int calculated = Math.Abs(Nall / Kall);
+        Console.Write(calculated);
+    } else {
+        Console.WriteLine("Invalid input for N or K");
+    }*/
+
+/*7. Write a program that calculates N!*K!/(N-K)! for given N and K 
+(1<K<N).
+
+    Console.Write("Enter N integer : ");
+    int N = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter K integer : ");
+    int K = Convert.ToInt32(Console.ReadLine());
+    int NK = N - K;
+    int Nall = 1;
+    int Kall = 1;
+    int NKall = 1;
+    if (N > 1 && K > 1 && N >= K) {
+        for (int i = N; N >= 1; N--) {
+        Nall *= N;
+        }
+        for (int i = K; K >= 1; K--) {
+        Kall *= K;
+        }
+        for (int i = NK; NK >= 1; NK--) {
+            NKall *= NK;
+        }
+
+        int calculated = Nall * Kall / NKall;
+        Console.Write(calculated);
+    } else {
+        Console.WriteLine("Invalid input for N or K");
+    }*/
+
+/*8. In combinatorics, the Catalan numbers are calculated by the following 
 formula: ! )! 1 (
  )! 2 ( 2
  1
