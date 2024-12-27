@@ -178,7 +178,15 @@ N (N < 20) and prints a matrix of numbers as on the figures below:
 /*11. Write a program that calculates with how many zeroes the factorial of 
 a given number ends. Examples: 
 N = 10 -> N! = 3628800 -> 2 
-N = 20 -> N! = 2432902008176640000 -> 4 */
+N = 20 -> N! = 2432902008176640000 -> 4 
+Console.Write("Enter N integer : ");
+int N = Convert.ToInt32(Console.ReadLine());
+
+int count = 0; 
+for (int i = 5; i < N; i*=5) {
+    count += N / i;
+}
+Console.WriteLine(count);*/
 /*12. Write a program that converts a given number from decimal to binary 
 notation (numeral system). 
 13. Write a program that converts a given number from binary to decimal 
