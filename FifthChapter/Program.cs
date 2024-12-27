@@ -77,14 +77,16 @@ of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8,
     int N = Convert.ToInt32(Console.ReadLine());
     Console.Write("Enter K integer : ");
     int K = Convert.ToInt32(Console.ReadLine());
-    int Nall = 1;
-    int Kall = 1;
     if (N > 1 && K > 1 && N > K) {
-        for (int i = N; N >= 1; N--) {
-        Nall *= N;
+        //n!
+        int Nall = 1;
+        for (int i = 1; i <= N; i++) {
+            Nall *= i;
         }
-        for (int i = K; K >= 1; K--) {
-        Kall *= K;
+        //k!
+        int Kall = 1;
+        for (int b = 1; b <= K; b++) {
+            Kall *= b;
         }
 
         int calculated = Math.Abs(Nall / Kall);
@@ -100,66 +102,84 @@ of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8,
     int N = Convert.ToInt32(Console.ReadLine());
     Console.Write("Enter K integer : ");
     int K = Convert.ToInt32(Console.ReadLine());
-    int NK = N - K;
-    int Nall = 1;
-    int Kall = 1;
-    int NKall = 1;
+    
     if (N > 1 && K > 1 && N >= K) {
-        for (int i = N; N >= 1; N--) {
-        Nall *= N;
+        //n!
+        int Nall = 1;
+        for (int i = 1; i <= N; i++) {
+            Nall *= i;
         }
-        for (int i = K; K >= 1; K--) {
-        Kall *= K;
+        //k!
+        int Kall = 1;
+        for (int i = 1; i <= K; i++) {
+            Kall *= i;
         }
-        for (int i = NK; NK >= 1; NK--) {
-            NKall *= NK;
+        //sub
+        int NK = N - K;    
+        int NKall = 1;
+        for (int i = 1; i <= NK; i++) {
+            NKall *= i;
         }
 
-        int calculated = Nall * Kall / NKall;
+        int calculated = (Nall * Kall) / NKall;
         Console.Write(calculated);
     } else {
         Console.WriteLine("Invalid input for N or K");
     }*/
 
 /*8. In combinatorics, the Catalan numbers are calculated by the following 
-formula: ! )! 1 (
- )! 2 ( 2
- 1
- 1
- n n
- n
- n
- n
- n Cn    
- 
- 
-  
- 
- 
-   , for n ≥ 0. Write a program that 
-calculates the nth Catalan number by given n. 
-9. Write a program that for a given integers n and x, calculates the sum: 
-n x
- n
- x x S ! ... ! 2 ! 1 1 2
-      
-10. Write a program that reads from the console a positive integer number 
+formula: for n ≥ 0. Write a program that 
+calculates the nth Catalan number by given n. */
+
+/*9. Write a program that for a given integers n and x, calculates the sum
+    Console.Write("Enter N integer : ");
+    int N = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter X integer : ");
+    int X = Convert.ToInt32(Console.ReadLine());
+
+    decimal greatSum = 1;
+    
+    //great loop
+    for (int i = 1; i <= N; i++) {
+        
+        //factorial
+        int factorial = 1;
+        for(int j = 1; j <= i; j++) {
+            factorial *= j;
+        }
+
+        //power
+        int power = 1;
+        for (int k = 1; k <= i; k++) {
+            power *= X;
+        }
+
+        greatSum += (decimal)factorial/power;
+
+        }
+        Console.WriteLine(greatSum);*/
+
+
+
+/*10. Write a program that reads from the console a positive integer number 
 N (N < 20) and prints a matrix of numbers as on the figures below: 
          N = 3     N = 4 
- 
-1 2 3 
-2 3 4 
-3 4 5 
- 
-1 2 3 4 
-2 3 4 5 
-3 4 5 6 
-4 5 6 7 
-11. Write a program that calculates with how many zeroes the factorial of 
+        Console.Write("Enter N integer : ");
+        int N = Convert.ToInt32(Console.ReadLine());
+        if (N > 0 && N < 20) {}
+        for (int i = 1; i <= N; i++) {
+            for (int j = 0; j < N; j++) {
+                Console.Write(i + j );
+            }
+            Console.WriteLine();
+        }
+        }*/
+
+/*11. Write a program that calculates with how many zeroes the factorial of 
 a given number ends. Examples: 
 N = 10 -> N! = 3628800 -> 2 
-N = 20 -> N! = 2432902008176640000 -> 4 
-12. Write a program that converts a given number from decimal to binary 
+N = 20 -> N! = 2432902008176640000 -> 4 */
+/*12. Write a program that converts a given number from decimal to binary 
 notation (numeral system). 
 13. Write a program that converts a given number from binary to decimal 
 notation. 
@@ -172,8 +192,6 @@ in random order.
 17. Write a program that given two numbers finds their greatest common 
 divisor (GCD) and their least common multiple (LCM). You may use 
 the formula LCM(a, b) = |a*b| / GCD(a, b). 
-Chapter 6. Loops  
-233 
 18. * Write a program that for a given number n, outputs a matrix in the 
 form of a spiral: 
 1 2 3 4 
