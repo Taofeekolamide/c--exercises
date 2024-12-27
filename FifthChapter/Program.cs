@@ -129,7 +129,26 @@ of the first N members of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8,
 
 /*8. In combinatorics, the Catalan numbers are calculated by the following 
 formula: for n ≥ 0. Write a program that 
-calculates the nth Catalan number by given n. */
+calculates the nth Catalan number by given n. 
+    Console.Write("Enter N integer : ");
+    int N = Convert.ToInt32(Console.ReadLine());
+    //a factorial
+    int Afactorial = 1;
+    for (int i = 1; i <= 2*N; i++) {
+        Afactorial *= i;
+    }
+    //bfactorial
+    int Bfactorial = 1;
+    for(int j = 1;  j <= N+1; j++) {
+        Bfactorial *= j;
+    }
+    //nfactorial
+    int Nfactorial = 1;
+    for(int k = 1;  k <= N; k++) {
+        Nfactorial *= k;
+    }
+    int result = Afactorial / (Bfactorial*Nfactorial);
+    Console.WriteLine(result);*/
 
 /*9. Write a program that for a given integers n and x, calculates the sum
     Console.Write("Enter N integer : ");

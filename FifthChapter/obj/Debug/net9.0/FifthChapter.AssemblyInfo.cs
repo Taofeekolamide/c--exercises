@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FifthChapter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a02fcac7b5c9dc049a77bc6167e3dd303c9ed48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcc2b0fcb42a7fd7786513c238f6ec589e6df4a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FifthChapter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FifthChapter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
