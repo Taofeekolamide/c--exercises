@@ -175,7 +175,10 @@ subsets whose sum is 0. Examples:
 is 0.
 - If we are given the numbers {3, 1, -7, 35, 22}, there are no subsets
 with sum 0.*/
-
+int[] ints = {3, 1, -7, 35, 22};
+for (int i = 0; i < 5; i++) {
+    Console.WriteLine(ints[i] + ints[i+1] + ints[i+2]);
+}
 
 /*10. Write a program that applies bonus points to given scores in the range
 [1…9] by the following rules:*/

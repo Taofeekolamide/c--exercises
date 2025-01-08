@@ -26,10 +26,13 @@ if (thirddigit == 7)
 }else {
     Console.WriteLine("The third digit is not seven");
 }
-
+*/
 /*4. Write an expression that checks whether the third bit in a given integer 
-is 1 or 0.
-
+is 1 or 0.*/
+Console.WriteLine("Enter number");
+string number = Console.ReadLine();
+int bit = number[2] - '0';
+Console.WriteLine(bit); 
 /*5. Write an expression that calculates the area of a trapezoid by given 
 sides a, b and height h.*/
 
@@ -101,6 +104,11 @@ p=6 -> 0.*/
 
 /*12. Write a Boolean expression that checks if the bit on position p in the 
 integer v has the value 1. Example v=5, p=1 -> false.*/
+Console.WriteLine("Enter number");
+string number = Console.ReadLine();
+int p = Convert.ToInt32(Console.ReadLine());
+int bit = number[p] - '0';
+Console.WriteLine(bit); 
 
 /*13. We are given the number n, the value v (v = 0 or 1) and the position p. 
 write a sequence of operations that changes the value of n, so the bit on 
