@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\C# exercises\SixthChapter\bin\Debug\net9.0\SixthChapter.exe
+C:\Users\USER\Desktop\C# exercises\SixthChapter\bin\Debug\net9.0\SixthChapter.deps.json
+C:\Users\USER\Desktop\C# exercises\SixthChapter\bin\Debug\net9.0\SixthChapter.runtimeconfig.json
+C:\Users\USER\Desktop\C# exercises\SixthChapter\bin\Debug\net9.0\SixthChapter.dll
+C:\Users\USER\Desktop\C# exercises\SixthChapter\bin\Debug\net9.0\SixthChapter.pdb
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\SixthChapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\SixthChapter.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\SixthChapter.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\SixthChapter.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\SixthChapter.sourcelink.json
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\SixthChapter.dll
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\refint\SixthChapter.dll
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\SixthChapter.pdb
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\SixthChapter.genruntimeconfig.cache
+C:\Users\USER\Desktop\C# exercises\SixthChapter\obj\Debug\net9.0\ref\SixthChapter.dll
