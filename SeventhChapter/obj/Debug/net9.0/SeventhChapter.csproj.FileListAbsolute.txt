@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\SeventhChapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\SeventhChapter.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\SeventhChapter.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\SeventhChapter.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\SeventhChapter.sourcelink.json
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\bin\Debug\net9.0\SeventhChapter.exe
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\bin\Debug\net9.0\SeventhChapter.deps.json
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\bin\Debug\net9.0\SeventhChapter.runtimeconfig.json
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\bin\Debug\net9.0\SeventhChapter.dll
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\bin\Debug\net9.0\SeventhChapter.pdb
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\SeventhChapter.dll
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\refint\SeventhChapter.dll
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\SeventhChapter.pdb
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\SeventhChapter.genruntimeconfig.cache
+C:\Users\USER\Desktop\C# exercises\SeventhChapter\obj\Debug\net9.0\ref\SeventhChapter.dll
