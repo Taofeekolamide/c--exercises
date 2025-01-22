@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\EightChapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\EightChapter.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\EightChapter.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\EightChapter.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\EightChapter.sourcelink.json
+C:\Users\USER\Desktop\C# exercises\EightChapter\bin\Debug\net9.0\EightChapter.exe
+C:\Users\USER\Desktop\C# exercises\EightChapter\bin\Debug\net9.0\EightChapter.deps.json
+C:\Users\USER\Desktop\C# exercises\EightChapter\bin\Debug\net9.0\EightChapter.runtimeconfig.json
+C:\Users\USER\Desktop\C# exercises\EightChapter\bin\Debug\net9.0\EightChapter.dll
+C:\Users\USER\Desktop\C# exercises\EightChapter\bin\Debug\net9.0\EightChapter.pdb
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\EightChapter.dll
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\refint\EightChapter.dll
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\EightChapter.pdb
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\EightChapter.genruntimeconfig.cache
+C:\Users\USER\Desktop\C# exercises\EightChapter\obj\Debug\net9.0\ref\EightChapter.dll
