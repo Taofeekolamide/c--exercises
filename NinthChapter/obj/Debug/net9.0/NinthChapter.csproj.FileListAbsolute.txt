@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\NinthChapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\NinthChapter.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\NinthChapter.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\NinthChapter.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\NinthChapter.sourcelink.json
+C:\Users\USER\Desktop\C# exercises\NinthChapter\bin\Debug\net9.0\NinthChapter.exe
+C:\Users\USER\Desktop\C# exercises\NinthChapter\bin\Debug\net9.0\NinthChapter.deps.json
+C:\Users\USER\Desktop\C# exercises\NinthChapter\bin\Debug\net9.0\NinthChapter.runtimeconfig.json
+C:\Users\USER\Desktop\C# exercises\NinthChapter\bin\Debug\net9.0\NinthChapter.dll
+C:\Users\USER\Desktop\C# exercises\NinthChapter\bin\Debug\net9.0\NinthChapter.pdb
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\NinthChapter.dll
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\refint\NinthChapter.dll
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\NinthChapter.pdb
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\NinthChapter.genruntimeconfig.cache
+C:\Users\USER\Desktop\C# exercises\NinthChapter\obj\Debug\net9.0\ref\NinthChapter.dll
