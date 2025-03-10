@@ -102,7 +102,7 @@ int sort = Array.sort(num);
 Console.WriteLine(sort);*/
 
 /*9. Write a program, which finds a subsequence of numbers with 
-maximal sum. E.g.: {2, 3, -6, -1, 2, -1, 6, 4, -8, 8}  11 
+maximal sum. E.g.: {2, 3, -6, -1, 2, -1, 6, 4, -8, 8}  11 *
 int[] arr = {2, 3, -6, -1, 2, -1, 6, 4, -8, 8};
 int highest = 0;
 for (int i = 0; i < arr.Length-3; i++) {
