@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\TenthChapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\TenthChapter.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\TenthChapter.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\TenthChapter.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\TenthChapter.sourcelink.json
+C:\Users\USER\Desktop\C# exercises\TenthChapter\bin\Debug\net9.0\TenthChapter.exe
+C:\Users\USER\Desktop\C# exercises\TenthChapter\bin\Debug\net9.0\TenthChapter.deps.json
+C:\Users\USER\Desktop\C# exercises\TenthChapter\bin\Debug\net9.0\TenthChapter.runtimeconfig.json
+C:\Users\USER\Desktop\C# exercises\TenthChapter\bin\Debug\net9.0\TenthChapter.dll
+C:\Users\USER\Desktop\C# exercises\TenthChapter\bin\Debug\net9.0\TenthChapter.pdb
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\TenthChapter.dll
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\refint\TenthChapter.dll
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\TenthChapter.pdb
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\TenthChapter.genruntimeconfig.cache
+C:\Users\USER\Desktop\C# exercises\TenthChapter\obj\Debug\net9.0\ref\TenthChapter.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TenthChapter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38ad96f9d628b8f48eeb6a0b1a2b0dd2d9d18652")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+645803aaa6b356bb39eae245c7fb7899982ce55b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TenthChapter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TenthChapter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
